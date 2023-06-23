@@ -51,7 +51,7 @@ a:link, a:visited{
     padding-bottom: 50px;
 }
 .parte1 h1{
-    font-size: 70px;
+    font-size: 80px;
 }
 .cu1ti{
     display: flex;
@@ -59,22 +59,28 @@ a:link, a:visited{
     justify-content: space-evenly;
 }
 .cu1ti2{
-    display: flex;
-    flex-direction: row;
+    margin-top: 30px;
     align-self: center;
-    border: 2px solid black;
-    border-radius: 15px;
+    border: 3px solid black;
+    border-radius: 25px;
     background: #06945b;
+    width: 400px;
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
 }
 .cu1ti p{
-    width: 500px;
+    font-size: 20px ;
+    width: 600px;
     align-self: center;
-    padding: 20px;
+    padding: 25px;
+    line-height: 30px;
 }
-.cu1ti img{
+.imagen1{
     align-self: center;
     height: 500px;
-    width: 550px;
+    width: 650px;
+    padding-bottom: 100px;
 }
 .cu1ti a{
     padding: 5px;
@@ -85,9 +91,13 @@ a:link, a:visited{
 }
 #arrow{
     margin-right: 10px;
-    height: 25px;
-    width: 35px;
-    display: flex;
+    height: 18px;
+    width: 25px;
+    align-content: baseline;
+    padding-left: 5px;
+}
+.nccr{
+    color: rgba(36, 37, 37, 0.493);
 }
 .cu1ct{
     display: flex;
@@ -104,11 +114,12 @@ a:link, a:visited{
 }
 .contenedor{
     display: flex;
-    margin-left: 40px;
+    margin-left: 80px;
     height: 400px;
 }
 .contenedor img{
     width: 700px;
+    height: 540px;
 }
 .sell{
     display: flex;
@@ -118,22 +129,35 @@ a:link, a:visited{
     padding: 30px;
 }
 .sell h1{
-    font-size: 50px;
+    font-size: 60px;
 }
 .sell a{
-    margin: 15px;
+    margin: 50px;
     padding: 15px;
     background: #f1b280;
     text-align: center;
     width: 150px;
-    height: 20px;
+    height: 25px;
     border: 2px solid black;
     border-radius: 45px;
     color: black;
 }
+.sell p{
+    height: 200px;
+    width: 500px;
+    line-height: 30px;
+    font-size: 20px;
+}
 .redes{
+    margin-top: 100px;
     display: flex;
     padding: 30px;
+}
+.redes p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 32px;
 }
 #facebook{
     font-family: 'Paytone One', sans-serif;
@@ -142,7 +166,7 @@ a:link, a:visited{
     font-family: 'Playball', cursive;
 }
 .ct{
-    margin: 15px;
+    margin-top: 140px;
     display: flex;
     height: 250px;
     flex-direction: row;   
@@ -157,7 +181,10 @@ a:link, a:visited{
     padding: 80px;
 }
 .comment p{
+    width: 500px;
     padding-bottom: 30px;
+    text-align: left;
+    font-size: 17px;
 }
 .user{
     display: flex;
@@ -165,10 +192,12 @@ a:link, a:visited{
 }
 .stars{
     display: flex;
+    flex-flow: row wrap;
     align-self: end;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    width: 400px;
 }
 .stars h1{
-    padding-right: 10px;
+    padding-left: 10px;
 }
