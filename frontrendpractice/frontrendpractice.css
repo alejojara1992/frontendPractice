@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Faustina', serif;    
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+.navegador{
+    margin: 0px;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    align-items: center;
+}
+.navegador img{
+    height: 20px;
+    margin-left: 70px;    
+}
+.navegador a{
+    padding-right: 15px;
+    font-size: 20px;
+}
+#gsf {
+    background: black;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+}
+#gsf a:link, a:visited{
+    color: white;
+}
+.parte1{
+    margin-top: 0px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.parte1 h1{
+    font-size: 70px;
+}
+.cu1ti{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cu1ti2{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #06945b;
+}
+.cu1ti p{
+    width: 500px;
+    align-self: center;
+    padding: 20px;
+}
+.cu1ti img{
+    align-self: center;
+    height: 500px;
+    width: 550px;
+}
+.cu1ti a{
+    padding: 5px;
+    height: 33px;
+    width: 300px;
+    align-self: center;
+    border-radius: 15px;
+}
+#arrow{
+    margin-right: 10px;
+    height: 25px;
+    width: 35px;
+    display: flex;
+}
+.cu1ct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cu1ct img{
+    height: 20px;
+}
+.cuerpo2{
+    margin-right: 12%;
+    margin-left: 12%;
+    align-content: center;
+}
+.contenedor{
+    display: flex;
+    margin-left: 40px;
+    height: 400px;
+}
+.contenedor img{
+    width: 700px;
+}
+.sell{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 150px;
+    padding: 30px;
+}
+.sell h1{
+    font-size: 50px;
+}
+.sell a{
+    margin: 15px;
+    padding: 15px;
+    background: #f1b280;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 45px;
+    color: black;
+}
+.redes{
+    display: flex;
+    padding: 30px;
+}
+#facebook{
+    font-family: 'Paytone One', sans-serif;
+}
+#instagram{
+    font-family: 'Playball', cursive;
+}
+.ct{
+    margin: 15px;
+    display: flex;
+    height: 250px;
+    flex-direction: row;   
+    border: 2px solid black;
+    border-radius: 55px;
+    background: #f1b280;     
+}
+.comment{
+    width: 800px;
+    text-align: center;
+    align-self: center;
+    padding: 80px;
+}
+.comment p{
+    padding-bottom: 30px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.stars{
+    display: flex;
+    align-self: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.stars h1{
+    padding-right: 10px;
+}
